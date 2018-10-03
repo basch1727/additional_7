@@ -14,8 +14,6 @@ module.exports = function solveSudoku(matrix) {
           let n = suggest(r, c);
             for (let i=0;i<9;i++) {
               matrix[r][c] = n[i];
-                  
-        
             }
          }
       }
